@@ -81,7 +81,7 @@ func main() {
     }
 
     pusherClient := &pusher.Client{
-                       AppId:   appID,
+                       AppID:   appID,
                        Key:     appKey,
                        Secret:  appSecret,
                        Cluster: appCluster,
